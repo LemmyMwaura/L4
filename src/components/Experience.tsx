@@ -1,4 +1,5 @@
 import { workExperience } from '@/app/experience'
+import { Work } from './Work'
 
 export const Experience = () => {
   return (
@@ -28,7 +29,11 @@ export const Experience = () => {
 
         <div>
           {workExperience.map((exp, idx) => {
-            return <div key={idx}>{exp.name}</div>
+            return (
+              <div key={idx}>
+                <Work experience={exp} />
+              </div>
+            )
           })}
         </div>
       </div>

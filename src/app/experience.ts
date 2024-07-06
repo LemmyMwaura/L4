@@ -1,6 +1,6 @@
 export const workExperience = [
   {
-    logo: 'elewa-icon',
+    logo: 'elewa-icon.png',
     name: 'Elewa-iTalanta',
     skills: ['Angular', 'GCP', 'Terraform', 'Nx', 'Node.js'],
     time: '2023 - 2024',
@@ -18,7 +18,7 @@ export const workExperience = [
     ],
   },
   {
-    logo: 'stealth-startup-icon',
+    logo: 'stealth-icon.jpg',
     name: 'Stealth Startup',
     skills: ['Next.js', 'SvelteKit', 'TRPC', 'Node.js'],
     time: '2023 - 2024',
@@ -31,7 +31,7 @@ export const workExperience = [
     ],
   },
   {
-    logo: 'iTalanta-logo',
+    logo: 'italanta-icon.jpg',
     name: 'iTalanta',
     skills: ['Angular'],
     time: '2022-2023',
