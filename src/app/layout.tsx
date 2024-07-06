@@ -4,8 +4,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | LemmyMwaura',
-    default: 'LemmyMwaura',
+    template: '%s | Lemmy Mwaura',
+    default: 'Lemmy Mwaura',
     absolute: 'Home | LemmyMwaura',
   },
   description: "Lemmy Mwaura's portfolio",
