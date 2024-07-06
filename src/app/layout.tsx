@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Footer } from '@/components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -18,7 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="no-repeat relative w-full bg-[#161616] bg-[url(/svgs/bg.svg)] bg-cover bg-fixed text-white">
-        {children}
+        <div>{children}</div>
+        <Footer />
       </body>
     </html>
   )
