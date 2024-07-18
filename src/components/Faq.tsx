@@ -2,7 +2,7 @@ import { type FC } from 'react'
 
 type FAQProps = {
   faq: {
-    id: number
+    id: string,
     question: string
     answer: string
   }

@@ -5,6 +5,7 @@ import { Achievement } from './Achievement'
 
 type WorkProps = {
   experience: {
+    id: string,
     logo: string
     name: string
     skills: string[]

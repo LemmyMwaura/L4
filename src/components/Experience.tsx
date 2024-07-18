@@ -47,12 +47,8 @@ export const Experience = () => {
         </div>
 
         <div>
-          {workExperience.map((exp, idx) => {
-            return (
-              <div key={idx}>
-                <Work experience={exp} />
-              </div>
-            )
+          {workExperience.map((exp) => {
+            return <Work key={exp.id} experience={exp} />
           })}
         </div>
       </div>

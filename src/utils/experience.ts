@@ -1,5 +1,8 @@
+import { randomUUID } from "crypto";
+
 export const workExperience = [
   {
+    id: randomUUID(),
     logo: 'elewa-icon.png',
     name: 'Elewa-iTalanta',
     skills: ['Angular', 'GCP', 'Terraform', 'Nx', 'Node.js'],
@@ -21,6 +24,7 @@ export const workExperience = [
     ],
   },
   {
+    id: randomUUID(),
     logo: 'stealth-icon.jpg',
     name: 'Stealth Startup',
     skills: ['Next.js', 'SvelteKit', 'TRPC', 'Node.js'],
@@ -35,6 +39,7 @@ export const workExperience = [
     ],
   },
   {
+    id: randomUUID(),
     logo: 'italanta-icon.jpg',
     name: 'iTalanta',
     skills: ['Angular', 'Nx'],
@@ -48,6 +53,7 @@ export const workExperience = [
     ],
   },
   {
+    id: randomUUID(),
     logo: 'aha.png',
     name: 'My Movies Africa',
     skills: ['React'],
@@ -61,6 +67,7 @@ export const workExperience = [
     ],
   },
   {
+    id: randomUUID(),
     logo: 'aha.png',
     name: 'Essential Health',
     skills: ['Shopify', 'React', 'Marketing', 'Ads Management'],
