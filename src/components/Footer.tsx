@@ -1,10 +1,9 @@
-import React from 'react'
 import { CardWrapper } from './Card'
-import Navigation from './Navigation'
+import { Navigation } from './Navigation'
 
 export const Footer = () => {
   return (
-    <div className="flex justify-center w-full fixed bottom-[10%]">
+    <div className="flex justify-center w-full fixed bottom-[5%]">
       <CardWrapper>
         <Navigation />
       </CardWrapper>

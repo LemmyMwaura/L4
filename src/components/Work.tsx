@@ -6,6 +6,7 @@ type WorkProps = {
     logo: string
     name: string
     skills: string[]
+    role: string
     time: string
     description: string
     achievements: string[]
@@ -19,8 +20,9 @@ export const Work: FC<WorkProps> = ({ experience }) => {
         <div className="flex items-center">
           <Image
             src={'/images/' + experience.logo}
-            width={30}
-            height={30}
+            width={40}
+            height={40}
+            style={{ borderRadius: "0.35rem" }}
             alt={experience.logo}
           ></Image>
         </div>
@@ -30,14 +32,25 @@ export const Work: FC<WorkProps> = ({ experience }) => {
             <span>{experience.name}</span>
             <span>{experience.time}</span>
           </div>
+          <div>{experience.role}</div>
         </div>
       </div>
 
       <div>
-        {experience.achievements.map((item, idx) => {
+        <div className="pb-5 pt-5">{experience.description}</div>
+      </div>
+
+      <div>
+        {experience.achievements.map((item) => {
           return (
-            <div key={idx} className="flex gap-2">
-              <Image src="svgs/plus.svg" width={10} height={10} alt="plus" />
+            <div key={item} className="flex gap-2">
+              <Image
+                src="/svgs/plus"
+                width={10}
+                height={10}
+                alt="plus"
+                priority
+              />
               <span>{item}</span>
             </div>
           )

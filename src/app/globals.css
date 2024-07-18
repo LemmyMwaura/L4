@@ -7,6 +7,9 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --font-fancy: 'poynter-oldstyle-display', serif;
+  --font-proxima: 14px "proxima-nova", system-ui;
+  --font-default: system-ui, sans-serif;
+  --font-mono: 'source-code-pro', monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,4 +38,16 @@ body {
 
 .fancy {
   font-family: var(--font-fancy);
+}
+
+.proxima {
+  font-family: var(--font-proxima);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.font-default {
+  font-family: var(--font-default);
 }

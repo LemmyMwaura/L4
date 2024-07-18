@@ -2,9 +2,9 @@
 
 import Link from 'next/link'
 
-function Navigation() {
+export const Navigation = () => {
   return (
-    <div className="position-absolute flex gap-2">
+    <div className="flex gap-2">
       <Link href={'/'}>Home</Link>
       <Link href={'faq'}>FAQ</Link>
       <Link href={'faq'}>Blog</Link>
@@ -13,5 +13,3 @@ function Navigation() {
     </div>
   )
 }
-
-export default Navigation

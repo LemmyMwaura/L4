@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Lemmy Mwaura's portfolio",
 }
 
-function FAQpage() {
+export default function FAQpage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-8">
       <div className="max-w-3xl flex flex-col gap-8">
@@ -22,5 +22,3 @@ function FAQpage() {
     </main>
   )
 }
-
-export default FAQpage
