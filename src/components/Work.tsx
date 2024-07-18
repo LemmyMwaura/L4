@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import Image from 'next/image'
+import { Plus } from 'lucide-react'
 
 type WorkProps = {
   experience: {
@@ -22,7 +23,7 @@ export const Work: FC<WorkProps> = ({ experience }) => {
             src={'/images/' + experience.logo}
             width={40}
             height={40}
-            style={{ borderRadius: "0.35rem" }}
+            style={{ borderRadius: '0.35rem' }}
             alt={experience.logo}
           ></Image>
         </div>
@@ -43,14 +44,8 @@ export const Work: FC<WorkProps> = ({ experience }) => {
       <div>
         {experience.achievements.map((item) => {
           return (
-            <div key={item} className="flex gap-2">
-              <Image
-                src="/svgs/plus"
-                width={10}
-                height={10}
-                alt="plus"
-                priority
-              />
+            <div key={item} className="flex gap-2 items-baseline">
+              <Plus color="white" size={15} />
               <span>{item}</span>
             </div>
           )
