@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import colors from 'tailwindcss/colors'
 
 const config: Config = {
   content: [
@@ -14,10 +15,16 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
+        ...colors,
         'nice-orange': '#facc15',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@catppuccin/tailwindcss')({
+      defaultFlavour: 'mocha',
+    }),
+  ],
 }
+
 export default config
