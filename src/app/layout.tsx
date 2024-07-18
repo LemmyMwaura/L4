@@ -25,8 +25,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/images/icon.png" sizes="any" />
 
-        <meta property="og:title" content="Lemmy Mwaura's Portfolio" />
-        <meta property="og:description" content="Lemmy Mwaura's portfolio" />
         <meta property="og:image" content="<generated>" />
         <meta property="og:image:type" content="<generated>" />
         <meta property="og:image:width" content="<generated>" />
