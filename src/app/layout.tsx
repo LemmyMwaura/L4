@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     default: 'Home | Lemmy Mwaura',
   },
   description: "Lemmy Mwaura's portfolio",
+  icons: [],
 }
 
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
@@ -21,6 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/icon.png" sizes="any" />
+      </head>
+
       <body className="no-repeat relative w-full bg-[#161616] bg-[url(/svgs/bg.svg)] bg-cover bg-fixed text-white">
         <div className={spaceGrotesk.className} style={{ fontSize: '15px' }}>
           {children}
