@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { FAQList } from './faq'
+import { FAQList } from '@/utils/faq'
 
 import { Faq } from '@/components/Faq'
 import { CardWrapper } from '@/components/Card'

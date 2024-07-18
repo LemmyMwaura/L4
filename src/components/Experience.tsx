@@ -1,4 +1,4 @@
-import { workExperience } from '@/app/experience'
+import { workExperience } from '@/utils/experience'
 import { Work } from './Work'
 
 export const Experience = () => {
