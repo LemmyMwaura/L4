@@ -2,7 +2,7 @@ import { type FC } from 'react'
 
 type FAQProps = {
   faq: {
-    id: string,
+    id: string
     question: string
     answer: string
   }
@@ -10,7 +10,7 @@ type FAQProps = {
 
 export const Faq: FC<FAQProps> = ({ faq }) => {
   return (
-    <div>
+    <div className="flex flex-col gap-2">
       <div className="text-nice-orange">{faq.question}</div>
       <div>{faq.answer}</div>
     </div>
