@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import { FAQList } from './faq'
+
 import { Faq } from '@/components/Faq'
+import { CardWrapper } from '@/components/Card'
 
 export const metadata: Metadata = {
   title: 'FAQ',
@@ -10,14 +12,16 @@ export const metadata: Metadata = {
 export default function FAQpage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-8">
-      <div className="max-w-3xl flex flex-col gap-8">
-        {FAQList.map((faq) => {
-          return (
-            <div key={faq.id}>
-              <Faq faq={faq}></Faq>
-            </div>
-          )
-        })}
+      <div className="max-w-3xl">
+        <div className="flex flex-col gap-8">
+          {FAQList.map((faq) => {
+            return (
+              <CardWrapper key={faq.id}>
+                <Faq faq={faq}></Faq>
+              </CardWrapper>
+            )
+          })}
+        </div>
       </div>
     </main>
   )

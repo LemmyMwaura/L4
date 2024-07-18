@@ -9,5 +9,10 @@ type FAQProps = {
 }
 
 export const Faq: FC<FAQProps> = ({ faq }) => {
-  return <div>{faq.id}</div>
+  return (
+    <div>
+      <div>{faq.question}</div>
+      <div>{faq.answer}</div>
+    </div>
+  )
 }

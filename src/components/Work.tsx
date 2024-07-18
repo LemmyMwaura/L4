@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import Image from 'next/image'
-import { Plus } from 'lucide-react'
+
+import { Achievement } from './Achievement'
 
 type WorkProps = {
   experience: {
@@ -43,12 +44,7 @@ export const Work: FC<WorkProps> = ({ experience }) => {
 
       <div>
         {experience.achievements.map((item) => {
-          return (
-            <div key={item} className="flex gap-2 items-baseline">
-              <Plus color="white" size={15} />
-              <span>{item}</span>
-            </div>
-          )
+          return <Achievement key={item} item={item} />
         })}
       </div>
     </div>
