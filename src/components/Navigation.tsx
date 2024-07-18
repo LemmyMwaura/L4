@@ -1,24 +1,34 @@
-'use client'
-
 import Link from 'next/link'
-import { BookOpenText, CircleHelp, Github, Home, Linkedin } from 'lucide-react'
+import { Home, CircleHelp, BookOpenText, Github, Linkedin } from 'lucide-react'
 
 export const Navigation = () => {
   return (
     <div className="flex gap-4">
-      <Link href={'/'}>
+      <Link href="/">
         <Home />
       </Link>
-      <Link href={'faq'}>
+      <Link href="/faq">
         <CircleHelp />
       </Link>
-      <Link href={'faq'}>
+      <Link
+        href="https://lemmymwaura.substack.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <BookOpenText />
       </Link>
-      <Link href={'faq'}>
+      <Link
+        href="https://github.com/LemmyMwaura"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Github />
       </Link>
-      <Link href={'faq'}>
+      <Link
+        href="https://www.linkedin.com/in/stephenlemmymwaura/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Linkedin />
       </Link>
     </div>
