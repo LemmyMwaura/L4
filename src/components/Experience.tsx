@@ -4,7 +4,7 @@ import { Work } from './Work'
 export const Experience = () => {
   return (
     <>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-">
         <h4 className="text-xl font-semibold">Experience</h4>
         <div className="flex flex-col gap-2">
           <div>

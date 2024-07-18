@@ -1,7 +1,6 @@
 'use client'
 
 import { Plus } from 'lucide-react'
-import React from 'react'
 
 export const Achievement = ({ item }: { item: string }) => {
   return (

@@ -11,7 +11,7 @@ type FAQProps = {
 export const Faq: FC<FAQProps> = ({ faq }) => {
   return (
     <div>
-      <div className='text-nice-orange '>{faq.question}</div>
+      <div className="text-nice-orange">{faq.question}</div>
       <div>{faq.answer}</div>
     </div>
   )
