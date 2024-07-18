@@ -17,13 +17,28 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/images/icon.png" sizes="any" />
+
+        <meta property="og:title" content="Lemmy Mwaura's Portfolio" />
+        <meta property="og:description" content="Lemmy Mwaura's portfolio" />
+        <meta property="og:image" content="/images/og-image.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="https://lemmymwaura.com" />
+
+        <meta name="twitter:title" content="Lemmy Mwaura's Portfolio" />
+        <meta name="twitter:description" content="Lemmy Mwaura's portfolio" />
+        <meta name="twitter:image" content="/images/og-image.png" />
+        <meta name="twitter:card" content="/images/og-image.png" />
+        <meta property="twitter:domain" content="lemmymwaura.com" />
+        <meta property="twitter:url" content="https://lemmymwaura.com" />
       </head>
 
       <body className="no-repeat relative w-full bg-[#161616] bg-[url(/svgs/bg.svg)] bg-cover bg-fixed text-white">
