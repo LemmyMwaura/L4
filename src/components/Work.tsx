@@ -5,7 +5,7 @@ import { Achievement } from './Achievement'
 
 type WorkProps = {
   experience: {
-    id: string,
+    id: string
     logo: string
     name: string
     skills: string[]
@@ -18,8 +18,8 @@ type WorkProps = {
 
 export const Work: FC<WorkProps> = ({ experience }) => {
   return (
-    <div>
-      <div className="flex gap-4 items-center mt-8">
+    <>
+      <div className="flex gap-4 items-center mt-8 first:mt-2">
         <div className="flex items-center">
           <Image
             src={'/images/' + experience.logo}
@@ -48,6 +48,6 @@ export const Work: FC<WorkProps> = ({ experience }) => {
           return <Achievement key={item} item={item} />
         })}
       </div>
-    </div>
+    </>
   )
 }
