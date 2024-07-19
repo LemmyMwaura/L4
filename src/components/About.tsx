@@ -35,7 +35,7 @@ export const About = () => {
           (Abracadabra! Watch that button become beautiful), and{' '}
           <span className="bg-blue/90 rounded-md p-[0.2rem]">
             writing stellar documentation
-          </span>
+          </span>{' '}
           (because every epic needs a good story).
         </div>
       </div>
