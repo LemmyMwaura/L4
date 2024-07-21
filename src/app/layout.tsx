@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='scroll-smooth'>
+    <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/images/icon.png" sizes="any" />
 
@@ -46,8 +46,8 @@ export default function RootLayout({
         <meta name="twitter:image:height" content="<generated>" />
       </head>
 
-      <body className="no-repeat relative w-full bg-[#161616] bg-[url(/svgs/bg.svg)] bg-cover bg-fixed text-white">
-        <div className={spaceGrotesk.className} style={{ fontSize: '15px' }}>
+      <body className="w-full bg-[#161616] bg-[url(/svgs/bg.svg)] bg-cover bg-fixed text-white">
+        <div className={`${spaceGrotesk.className} text-[15px]`}>
           {children}
         </div>
         <Footer />
