@@ -11,7 +11,7 @@ export const Navigation = () => {
         <CircleHelp />
       </Link>
       <Link
-        href="https://lemmymwaura.substack.com/"
+        href="https://bytesbubble.substack.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
