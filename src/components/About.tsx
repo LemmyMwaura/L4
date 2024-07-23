@@ -5,14 +5,12 @@ export const About = () => {
         <div>
           I&apos;m a full-stack web dev proficient in JavaScript/TypeScript,
           Python, and Go. I have extensive experience with Node, React, and
-          Next.js. I also know how to make a mean cup of coffee, which is
-          essential for those long coding sessions.
+          Next.js. I also know how to make a mean cup of coffee.
         </div>
 
         <div>
           I&apos;m passionate about open-source contributions and actively
-          contribute to projects that align with my interests. Think of me as a
-          digital philanthropist, but with more Git commits and fewer tuxedos.
+          contribute to projects that align with my interests.
         </div>
 
         <div>
