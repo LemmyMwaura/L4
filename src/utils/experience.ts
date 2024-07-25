@@ -79,6 +79,7 @@ export const workExperience = [
       'Built a beautiful headless eCommerce frontend using Shopify and React.',
       'Implemented advanced SEO strategies.',
       'Streamlined the user interface to enhance customer satisfaction and retention.',
+      'Setup marketing pages and managed AD campaigns (FB ads Manager)'
     ],
   },
 ]
