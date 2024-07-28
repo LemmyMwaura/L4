@@ -1,3 +1,3 @@
-![Banner](public/images/banner.png)
+# Stephen Lemmy Mwaura
 
-- Portfolio 2024
+Portfolio and personal blog site.
