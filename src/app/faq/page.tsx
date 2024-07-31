@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function FAQpage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-8">
+    <main className="flex min-h-screen flex-col items-center justify-center p-8 sm:p-16 md:p-24 gap-8">
       <div className="min-w-[90vw] sm:min-w-0 sm:max-w-4xl md:max-w-4xl">
         <div className="flex flex-col gap-8">
           {FAQList.map((faq) => {
