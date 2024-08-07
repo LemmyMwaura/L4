@@ -1,6 +1,8 @@
 import { randomUUID } from 'crypto'
 
-export const FAQList = [
+import { FAQ } from './types'
+
+export const FAQList: FAQ[] = [
   {
     id: randomUUID(),
     question: "What's your name?",

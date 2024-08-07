@@ -1,11 +1,9 @@
 import { type FC } from 'react'
 
+import { FAQ } from '@/utils/types'
+
 type FAQProps = {
-  faq: {
-    id: string
-    question: string
-    answer: string
-  }
+  faq: FAQ
 }
 
 export const Faq: FC<FAQProps> = ({ faq }) => {

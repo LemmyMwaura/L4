@@ -1,19 +1,12 @@
 import { FC } from 'react'
 import Image from 'next/image'
 
+import { Experience } from '@/utils/types'
+
 import { Achievement } from './Achievement'
 
 type WorkProps = {
-  experience: {
-    id: string
-    logo: string
-    name: string
-    skills: string[]
-    role: string
-    time: string
-    description: string
-    achievements: string[]
-  }
+  experience: Experience
 }
 
 export const Work: FC<WorkProps> = ({ experience }) => {

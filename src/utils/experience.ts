@@ -1,6 +1,8 @@
 import { randomUUID } from 'crypto'
 
-export const workExperience = [
+import { Experience } from './types'
+
+export const workExperience: Experience[] = [
   {
     id: randomUUID(),
     logo: 'elewa-icon.png',

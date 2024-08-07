@@ -2,7 +2,11 @@
 
 import { Plus } from 'lucide-react'
 
-export const Achievement = ({ item }: { item: string }) => {
+type Props = {
+  item: string;
+}
+
+export const Achievement = ({ item }: Props) => {
   return (
     <div key={item} className="flex gap-2 items-baseline">
       <div className='pt-[4px]'>
