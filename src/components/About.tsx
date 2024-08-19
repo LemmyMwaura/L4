@@ -3,14 +3,20 @@ export const About = () => {
     <>
       <div className="flex flex-col gap-2">
         <div>
-          I&apos;m a full-stack web dev proficient in JavaScript/TypeScript,
-          Python, and Go. I have extensive experience with Node, React, and
-          Next.js. I also know how to make a mean cup of coffee.
+          I&apos;m a Passionate tech enthusiast and developer with a strong
+          foundation in modern day JAMstack full-stack development with (SSG,
+          SSR and ISR), specializing in hybrid frameworks like Next.js and
+          Remix. My expertise includes advanced frontend web development and a
+          solid understanding of stateless backends.
         </div>
 
         <div>
-          I&apos;m passionate about open-source contributions and actively
-          contribute to projects that align with my interests.
+          I&apos;m profficient in{' '}
+          <span className="bg-blue/90 rounded-md p-[0.2rem]">
+            JavaScript/TypeScript, Python, and Go,
+          </span>{' '}
+          I&apos;m also passionate about open-source and actively contribute to
+          projects that align with my interests.
         </div>
 
         <div>
@@ -30,7 +36,7 @@ export const About = () => {
           <span className="bg-blue/90 rounded-md p-[0.2rem]">
             frontend wizardry
           </span>
-          (Abracadabra! Watch that button become beautiful), and{' '}
+          and{' '}
           <span className="bg-blue/90 rounded-md p-[0.2rem]">
             writing stellar documentation
           </span>{' '}
