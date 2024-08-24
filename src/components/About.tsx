@@ -5,8 +5,7 @@ export const About = () => {
         <div>
           I&apos;m a Passionate tech enthusiast and developer with a strong
           foundation in modern day JAMstack full-stack development with (SSG,
-          SSR and ISR), specializing in hybrid frameworks like Next.js and
-          Remix. My expertise includes advanced frontend web development and a
+          SSR and ISR), My expertise includes advanced frontend web development and a
           solid understanding of stateless backends.
         </div>
 
