@@ -72,16 +72,11 @@ export const workExperience: Experience[] = [
     id: randomUUID(),
     logo: 'aha.png',
     name: 'Essential Health',
-    skills: ['Shopify', 'React', 'Marketing', 'Ads Management'],
+    skills: ['Shopify', 'Marketing', 'Ads Management'],
     time: '2020-2021',
-    role: 'Founder',
+    role: 'Founder | Entrepreneur',
     description:
-      'Founded an eCommerce platform specializing in medical products.',
-    achievements: [
-      'Built a beautiful headless eCommerce frontend using Shopify and React.',
-      'Implemented advanced SEO strategies.',
-      'Streamlined the user interface to enhance customer satisfaction and retention.',
-      'Setup marketing pages and managed AD campaigns (FB ads Manager)'
-    ],
+      'Health-Based eCommerce platform with an integrated Etsy store.',
+    achievements: [],
   },
 ]
