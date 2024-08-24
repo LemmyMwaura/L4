@@ -72,7 +72,7 @@ export const workExperience: Experience[] = [
     id: randomUUID(),
     logo: 'aha.png',
     name: 'Essential Health',
-    skills: ['Shopify', 'Marketing', 'Ads Management'],
+    skills: ['Shopify', 'Ads Management'],
     time: '2020-2021',
     role: 'Founder | Entrepreneur',
     description:
