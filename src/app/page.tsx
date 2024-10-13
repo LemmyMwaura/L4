@@ -1,5 +1,4 @@
 import { CardWrapper } from '@/components/Card'
-import { Experience } from '@/components/Experience'
 import { About } from '@/components/About'
 import { Bio } from '@/components/Bio'
 
@@ -13,10 +12,6 @@ export default function Home() {
 
         <CardWrapper className="bg-rosewater/90 text-black">
           <About />
-        </CardWrapper>
-
-        <CardWrapper>
-          <Experience />
         </CardWrapper>
       </div>
     </main>
