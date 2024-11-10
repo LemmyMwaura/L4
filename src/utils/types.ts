@@ -1,9 +1,10 @@
+import { ReactNode } from 'react'
 import { z } from 'zod'
 
 const FAQSchema = z.object({
   id: z.string().min(8),
   question: z.string(),
-  answer: z.string(),
+  answer: z.union([z.string(), z.any() as z.ZodType<ReactNode>]),
 })
 
 const ExperienceSchema = z.object({
