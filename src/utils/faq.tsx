@@ -1,4 +1,5 @@
 import { randomUUID } from 'crypto'
+import Link from 'next/link'
 
 import { FAQ } from './types'
 
@@ -28,7 +29,20 @@ export const FAQList: FAQ[] = [
   {
     id: randomUUID(),
     question: 'What are you working on nowadays?',
-    answer:
-      'Currently building an open-source chatbot editor at Elewa. During my free time, I actively contribute to various open-source projects that align with my interests.',
+    answer: (
+      <>
+        Currently building{' '}
+        <Link
+          className="text-nice-orange"
+          href="https://app.getriver.io"
+          target="_blank"
+        >
+          <span>River</span>
+        </Link>
+        , an in-person event & membership platform turning audiences into
+        communities. During my free time, I actively contribute to various
+        open-source projects that align with my interests.
+      </>
+    ),
   },
 ]
