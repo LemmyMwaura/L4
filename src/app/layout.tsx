@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import { Metadata } from 'next/types'
 import { Space_Grotesk } from 'next/font/google'
 
 import { Footer } from '@/components/Footer'
